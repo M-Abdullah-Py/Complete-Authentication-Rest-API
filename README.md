@@ -26,22 +26,22 @@ To run this project, ensure you have Python and Django installed on your machine
    python manage.py runserver
 Access the API at http://127.0.0.1:8000/api/.
 
-#API Overview
-This project includes endpoints for:
+# API Overview
+## This project includes endpoints for:
 
-Creating, reading, updating, and deleting user profiles.
-User registration and login with JWT authentication.
-Password reset functionality.
-Features
-CRUD Operations: Manage user information.
-Authentication: Secure API access with JWT.
-Password Management: Reset password via email.
-Profile Management: Access and update user profiles.
-Usage
+* Creating, reading, updating, and deleting user profiles.
+* User registration and login with JWT authentication.
+* Password reset functionality.
+### Features
+* CRUD Operations: Manage user information.
+* Authentication: Secure API access with JWT.
+* Password Management: Reset password via email.
+* Profile Management: Access and update user profiles.
+## Usage
 After running the development server, you can use tools like Postman or your browser to interact with the API endpoints. Documentation for available endpoints is included in the project.
 
-Contributing
+## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any changes or enhancements.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
